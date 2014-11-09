@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linc Band</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_chain_list">ChainListActivity</string>
+    <string name="title_activity_enable_bt">EnableBTActivity</string>
+    <string name="title_activity_tutorial_1_">Tutorial_1_Activity</string>
+    <string name="title_activity_tutorial_2_">Tutorial_2_Activity</string>
+
+</resources>
