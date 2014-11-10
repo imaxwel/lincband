@@ -11,5 +11,8 @@
     <string name="title_activity_enable_bt">EnableBTActivity</string>
     <string name="title_activity_tutorial_1_">Tutorial_1_Activity</string>
     <string name="title_activity_tutorial_2_">Tutorial_2_Activity</string>
-
+    <string name="title_activity_tutorial_3_">Tutorial_3_Activity</string>
+    <string name="title_activity_tutorial_4_">Tutorial_4_Activity</string>
+    <string name="title_activity_tutorial_5_">Tutorial_5_Activity</string>
+    <string name="title_activity_tutorial_6_">Tutorial_6_Activity</string>
 </resources>

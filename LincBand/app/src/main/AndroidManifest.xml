@@ -38,6 +38,22 @@
             android:name=".Tutorial_2_Activity"
             android:label="@string/title_activity_tutorial_2_" >
         </activity>
+        <activity
+            android:name=".Tutorial_3_Activity"
+            android:label="@string/title_activity_tutorial_3_" >
+        </activity>
+        <activity
+            android:name=".Tutorial_5_Activity"
+            android:label="@string/title_activity_tutorial_5_" >
+        </activity>
+        <activity
+            android:name=".Tutorial_4_Activity"
+            android:label="@string/title_activity_tutorial_4_" >
+        </activity>
+        <activity
+            android:name=".Tutorial_6_Activity"
+            android:label="@string/title_activity_tutorial_6_" >
+        </activity>
     </application>
 
 </manifest>

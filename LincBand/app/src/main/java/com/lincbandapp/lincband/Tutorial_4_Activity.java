@@ -10,24 +10,23 @@ import android.view.Window;
 import android.widget.RelativeLayout;
 
 
-public class Tutorial_2_Activity extends Activity {
+public class Tutorial_4_Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_tutorial_2_);
+        setContentView(R.layout.activity_tutorial_4_);
 
-        RelativeLayout r1 = (RelativeLayout)findViewById(R.id.tutorial2layout);
+        RelativeLayout r1 = (RelativeLayout)findViewById(R.id.tutorial4layout);
 
         r1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),Tutorial_3_Activity.class);
+                Intent i = new Intent(getApplicationContext(),Tutorial_5_Activity.class);
                 startActivity(i);
             }
         });
     }
-
 
 }
