@@ -28,6 +28,4 @@ public class Tutorial_2_Activity extends Activity {
             }
         });
     }
-
-
 }

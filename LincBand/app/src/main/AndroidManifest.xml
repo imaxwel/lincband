@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lincbandapp.lincband" >
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -54,6 +57,11 @@
             android:name=".Tutorial_6_Activity"
             android:label="@string/title_activity_tutorial_6_" >
         </activity>
+        <activity
+            android:name=".ScanDevicesActivity"
+            android:label="@string/title_activity_scan_devices" >
+        </activity>
+
     </application>
 
 </manifest>

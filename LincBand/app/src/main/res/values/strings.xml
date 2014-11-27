@@ -15,4 +15,6 @@
     <string name="title_activity_tutorial_4_">Tutorial_4_Activity</string>
     <string name="title_activity_tutorial_5_">Tutorial_5_Activity</string>
     <string name="title_activity_tutorial_6_">Tutorial_6_Activity</string>
+    <string name="title_activity_scan_devices">ScanDevicesActivity</string>
+
 </resources>
