@@ -8,12 +8,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@drawable/enablebluetooth"
-
-
     tools:context="com.lincbandapp.lincband.EnableBTActivity">
 
 
     <ImageButton
+        style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/onbluetooth"
@@ -23,6 +22,7 @@
         android:layout_marginTop="195dp" />
 
     <ImageButton
+        style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/exitbluetooth"

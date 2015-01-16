@@ -9,8 +9,8 @@
     android:background="@drawable/scanbluetoothpair"
     tools:context="com.lincbandapp.lincband.ScanDevicesActivity">
 
-
     <ImageButton
+        style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scanButton"
@@ -29,6 +29,6 @@
             android:id="@+id/scannedList"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="87dp" />
+            android:layout_marginBottom="18dp" />
     </RelativeLayout>
 </RelativeLayout>
