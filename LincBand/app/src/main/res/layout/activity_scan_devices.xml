@@ -9,7 +9,7 @@
     android:background="@drawable/scanbluetoothpair"
     tools:context="com.lincbandapp.lincband.ScanDevicesActivity">
 
-    <ImageButton
+  <ImageButton
         style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,19 +21,18 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/scanButton"
         android:id="@+id/relativeLayout">
 
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scannedList"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="18dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="268dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-        <ProgressBar
+       <ProgressBar
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:id="@+id/progressBar"
